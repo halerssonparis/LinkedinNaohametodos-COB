@@ -1,0 +1,81 @@
+Weka
+ 
+
+### Extração de Conhecimento ###
+
+-- kdd (knowledge discory in database);
+
+Seleção dos Dados: 
+	º Comunicação com o cliente.
+	º (metodo pra minerar a informação, dica: joga num tabelão csv hue);
+	º Dicionário de Dados
+	º Limpesa de Dados
+	
+Mapeamento de Dados Redundante e Dados Inc1onsistentes.
+	º calcular a idade a partir do cadastro 
+	º manter a data de nasciemnto deposi de calculas a idade?
+	º Precisamos manter os dados completos do endereço?
+
+ex de dados inconsistentes: 
+	º dia/mes/ano <= 1900, possivelmente não será consistente para a pesquisa.
+	º deletar ou substituir o dado, caso encontrado	
+
+Padronização dos Dados:
+	º Formatação de Datas
+	º Calculo de inflação/deflação
+	º Conversão de Moedas
+
+Tratamento de Valores Faltantes
+	º Escolher metodo adequado para cada dimensao
+	º média, mendiano, zero, exclusao, algoritmo,
+	º O especialista e fundamental nas decisões do método.	
+
+this {
+Normalização
+
+	º tatica derradeira do tratamento dos dados
+	º leva todos os seus dados para uma mesma regua
+
+Pre Processamento e limpeza
+	º Redução de Variaveis
+	 - PCA ( Pincipal Analisys Component)
+}(apenas variaveis numericas);
+
+
+Trasformalçai dos dadso
+	º entendimentos dos tipos de variaveis para cada algoritimo
+	º variaveis de text e variaveis numericas
+	º adaptar suas variaveis confirme a necessicade do algoritomo
+
+
+
+
+
+
+### MINERAÇÃO DE DADOS ###
+this {
+predição
+	classificar
+		-tem categorias
+		ex: i.a 1 milhao de fotos gato e cachorro. 
+	regressao
+		- tenta prever um valor
+		ex: prever se um cara vai pagar ou não. (base, trabalho, mantem sua contas em dias etc..)
+	
+
+descritivo
+	associação
+		-two params ( confiança e suporte )
+		ex: dados 2 params, ql a prob. de ele fazer tal coisa?
+	} (supervisionado)
+this {	
+	segmentação
+		minimização do desvio padrao dentrod e cada grupo
+
+	sumarização
+		tecnica de sumarização de texto. 
+}(Não supervisionado)
+
+tipos de softaware Qlik view, deepeme, tableau , power
+
+
